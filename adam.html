@@ -180,6 +180,25 @@
       margin: 1em 4em;
     }
 
+    /* Styling of the section */
+
+    .bit-widget .bit-top-track-button {
+      font-weight: 100 !important;
+    }
+
+    .bit-widget .bit-event-list-title {
+      font-weight: 500 !important;
+    }
+
+    .bit-widget .bit-top-track-button span,
+    .bit-widget .bit-event-list-title.bit-clickable {
+      text-decoration: none !important;
+    }
+
+    path:nth-child(2) {
+      fill: #00cec8 !important;
+    }
+
     /* Making title vertical  */
     .tour-head {
       margin-left: -1em;
@@ -393,21 +412,26 @@
       <!-- here we should bring the widget-->
       <h2 class="tour-head text-2xl text-center p-5">Tour</h2>
       <div class="tour-links">
+        <!-- wrapper for the anchor tag -->
+        <!-- <script
+          charset="utf-8"
+          src="https://widget.bandsintown.com/main.min.js"
+        ></script> -->
         <a
-          class="bit-widget-initializer "
-          data-artist-name="adam"
-          data-display-local-dates="true"
+          class="bit-widget-initializer"
+          data-artist-name="maroon 5"
+          data-display-local-dates="false"
           data-display-past-dates="true"
           data-auto-style="false"
           data-text-color="#000000"
           data-link-color="#FF703B"
           data-background-color="rgba(0,0,0,0)"
-          data-display-limit="10"
-          data-display-start-time="false"
+          data-display-limit="15"
           data-link-text-color="#FFFFFF"
-          data-display-lineup="true"
-          data-display-play-my-city="false"
-          data-separator-color="rgba(255, 255, 255, 0.5)"
+          data-display-lineup="false"
+          data-display-play-my-city="true"
+          data-separator-color="rgba(124,124,124,0.25)"
+          data-display-start-time="false"
         ></a>
       </div>
     </div>
